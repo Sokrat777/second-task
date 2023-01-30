@@ -1,0 +1,119 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D192C;
+    height: 100vh;
+}
+.nftCard{
+    width: 350px;
+    height: 596px;
+
+    border-radius: 15px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    padding: 24px;
+    box-sizing: border-box;
+}
+.nftImg{
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+.nftName{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    /* White */
+    color: #FFFFFF;
+}
+.nftName:hover{
+    color: #00FFF8;
+    cursor:pointer;
+}
+.description{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    /* Soft Blue */
+    color: #8BACD9;
+}
+.value{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ethNft{
+    display: inline-block;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 6.48px;
+    color: #00FFF8;
+}
+.days{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 9.03px;
+
+    /* Soft Blue */
+
+    color: #8BACD9;
+}
+.expTime{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.comb{
+    display:flex;
+    justify-content: space-between;
+}
+hr{
+    background: #2E405A;
+}
+.prPic{
+    border: 1px solid #FFFFFF;
+    width: 33px;
+    height: 33px;
+    border-radius: 16.5px;
+}
+.one{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin-left: 16px;
+}
+.two{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+.two:hover{
+    cursor: pointer;
+    color: #00FFF8;
+}
+.creator{
+    display:flex;
+    align-items: center;
+}
